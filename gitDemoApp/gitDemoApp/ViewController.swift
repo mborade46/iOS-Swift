@@ -16,8 +16,14 @@ class ViewController: UIViewController {
         print("My second new feature added log statement")
         print("my third new commit added")
         print("my 4th new commit added")
+        
+        
     }
 
 
+    @IBAction func btnclicked(_ sender: UIButton) {
+        
+        print("button clicked")
+    }
 }
 
